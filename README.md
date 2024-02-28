@@ -212,7 +212,7 @@ We evaluated our distilled model on the [FinEval](https://github.com/SUFE-AIFLM-
 
 ### Credits
 
-The following repositories are used in Megatron-LLaMA, either in close to original form or as an inspiration:
+The following repositories are used in Megatron-Cookbook, either in close to original form or as an inspiration:
 
 [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
 
