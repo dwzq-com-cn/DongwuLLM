@@ -208,3 +208,12 @@ def _set_cos_sin_cache(self, seq_len, device, dtype):
 | base-model            | 43.60      | 44.61       | 40.09   | 49.83   | 44.91   |
 | distill on 3B tokens  | 40.00      | 49.70       | 42.02   | 47.54   | 45.17   |
 | distill on 10B tokens | 43.27      | 47.90       | 38.64   | 51.14   | 45.87   |
+
+### 致谢
+以下开源仓库在 Megatron-Cookbook 中被使用：
+
+[Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
+
+[Megatron-LLaMA](https://github.com/alibaba/Megatron-LLaMA)
+
+[Pruning-LLMs](https://github.com/jordddan/Pruning-LLMs)
