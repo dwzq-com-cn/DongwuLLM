@@ -123,10 +123,6 @@ We provide scripts for training [31B](./scripts/llama_30B.sh), [65B](./scripts/l
 
 ## LLM Compression
 
-## 模型压缩
-
-## Model Compression
-
 Using structured pruning and fine-tuning with a small number of tokens, this approach supports pruning a Transformer pre-trained model to any desired size while retaining most of its performance. For a transformer model, the parameter size is determined by `layer_num, hidden_size, intermediate_size, num_attention_heads`. With this code, you only need to set new values for `drop_layers, hidden_size_remain, intermediate_size_remain`, and `num_attention_heads_remain` to compress the model into a smaller size.
 
 We used this codebase to compress llama2-13B to 7B and llama2-7B to 3.4B, followed by fine-tuning with 20B and 12B data, respectively. The compression results are as follows:
