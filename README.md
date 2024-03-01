@@ -213,3 +213,5 @@ The following repositories are used in Megatron-Cookbook, either in close to ori
 [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
 
 [Megatron-LLaMA](https://github.com/alibaba/Megatron-LLaMA)
+
+[Pruning-LLMs](https://github.com/jordddan/Pruning-LLMs)
