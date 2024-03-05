@@ -1,10 +1,10 @@
     
 
-# Megatron Cookbook: Pre-training, Compressing, Extending, and Distilling Your LLMs
+# DongwuLLM: A Codabase for Pre-training, Compressing, Extending, and Distilling Your LLMs with the Megatron Framework
 
 [[中文版](README_ZH.md)] [[English](README.md)]
 
-大语言模型（LLMs）——具有大量的参数且在大量的文本数据中进行预训练的模型，在各种下游任务中表现出了非常强大的能力。然而，由于机器显存限制，训练这些模型将是一项具有挑战性的工作。为了应对这一挑战，我们构建了本代码库。该代码库是基于Megatron-LM项目构建的，并且实现了高效训练LLMs的技术。本代码库除了用于训练大模型的脚本外，本代码库还对一些其他的方法进行了探索，比如：压缩LLMs、扩展LLMs的上下文长度以及使用其他预训练大模型生成的合成文本进行蒸馏等等。
+大语言模型（LLMs）——具有大量的参数且在大量的文本数据中进行预训练的模型，在各种下游任务中表现出了非常强大的能力。然而，由于机器显存限制，训练这些模型将是一项具有挑战性的工作。为了应对这一挑战，我们构建了本代码库。DongwuLLM是基于Megatron-LM框架构建的，并且实现了高效训练LLMs的技术。本代码库除了用于训练大模型的脚本外，本代码库还对一些其他的方法进行了探索，比如：压缩LLMs、扩展LLMs的上下文长度以及使用其他预训练大模型生成的合成文本进行蒸馏等等。
 
 本代码库的亮点如下：
 
@@ -210,7 +210,7 @@ def _set_cos_sin_cache(self, seq_len, device, dtype):
 | distill on 10B tokens | 43.27      | 47.90       | 38.64   | 51.14   | 45.87   |
 
 ### 致谢
-以下开源仓库在 Megatron-Cookbook 中被使用：
+以下开源仓库在 DongwuLLM 中被使用：
 
 [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
 
