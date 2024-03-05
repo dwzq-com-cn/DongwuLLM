@@ -1,4 +1,4 @@
-# DongwuLLM: A Codabase for Pre-training, Compressing, Extending, and Distilling Your LLMs with the Megatron Framework
+# DongwuLLM: A Codabase for Pre-training, Compressing, Extending, and Distilling Your LLMs with Megatron Framework
 
 [[中文版](README.md)] [[English](README_en.md)]
 
