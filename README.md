@@ -2,7 +2,7 @@
 
 # DongwuLLM: A Codabase for Pre-training, Compressing, Extending, and Distilling Your LLMs with Megatron Framework
 
-[[中文版](README_ZH.md)] [[English](README.md)]
+[[中文版](README.md)] [[English](README_en.md)]
 
 大语言模型（LLMs）——具有大量的参数且在大量的文本数据中进行预训练的模型，在各种下游任务中表现出了非常强大的能力。然而，由于机器显存限制，训练这些模型将是一项具有挑战性的工作。为了应对这一挑战，我们构建了本代码库。DongwuLLM是基于Megatron-LM框架构建的，并且实现了高效训练LLMs的技术。本代码库除了用于训练大模型的脚本外，本代码库还对一些其他的方法进行了探索，比如：压缩LLMs、扩展LLMs的上下文长度以及使用其他预训练大模型生成的合成文本进行蒸馏等等。
 
