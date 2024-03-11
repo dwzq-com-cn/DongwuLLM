@@ -179,5 +179,3 @@ def _set_cos_sin_cache(self, seq_len, device, dtype):
 [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
 
 [Megatron-LLaMA](https://github.com/alibaba/Megatron-LLaMA)
-
-[Pruning-LLMs](
