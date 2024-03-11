@@ -18,7 +18,7 @@ Key features of our work include:
 - [Training](#Training)
   - [Data processing](#Data-processing)
   - [Checkpoint conversion](#Checkpoint-conversion)
-  - [Examples for 31B/65B/132B training](#Examples-for-31B/65B/132B-training)
+  - [Examples for 31B/65B/132B training](#Examples-for-31B65B132B-training)
 - [Context length extension](#Context-length-extension)
   - [Examples for context length extension training](#Examples-for-context-length-extension-training)
 - [Distillation](#Distillation)
