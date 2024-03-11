@@ -117,9 +117,9 @@ python tools/checkpoint_conversion/llama_checkpoint_conversion.py \
 
 ### Examples for 31B/65B/132B training
 
-We provide scripts for training [31B](./scripts/llama_30B.sh), [65B](./scripts/llama_70B.sh) and [132B](./scripts/llama_130B.sh) llama-based LLMs. The TFlops and token speed on A100-SXM4-80G is reported in the table below:
+We provide scripts for training [31B](./scripts/llama_31B.sh), [65B](./scripts/llama_65B.sh) and [132B](./scripts/llama_132B.sh) llama-based LLMs. The TFlops and token speed on A100-SXM4-80G is reported in the table below:
 
-|                             | 31B   | 65B   | 130B  |
+|                             | 31B   | 65B   | 132B  |
 | --------------------------: | ----- | ----- | ----- |
 |         **TFLOP/s per GPU** | 161   | 161   | 177   |
 | **Tokens / day 8*A100-80g** | 0.59B | 0.27B | 0.15B |
