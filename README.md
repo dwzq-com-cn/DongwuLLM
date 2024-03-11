@@ -114,11 +114,11 @@ python tools/checkpoint_conversion/llama_checkpoint_conversion.py \
     --megatron-path /Path/to/Megatron
 ```
 
-### 训练样例-31B/65B/130B
+### 训练样例-31B/65B/132B
 
-本代码库提供了训练基于Llama架构大模型的脚本，包括[31B](./scripts/llama_30B.sh)、[65B](./scripts/llama_70B.sh)、和[132B](./scripts/llama_130B.sh)。下表记录了在A100-SXM4-80G上的TFlops和token speed：
+本代码库提供了训练基于Llama架构大模型的脚本，包括[31B](./scripts/llama_30B.sh)、[65B](./scripts/llama_70B.sh)、和[132B](./scripts/llama_132B.sh)。下表记录了在A100-SXM4-80G上的TFlops和token speed：
 
-|                             | 31B   | 65B   | 130B  |
+|                             | 31B   | 65B   | 132B  |
 | --------------------------: | ----- | ----- | ----- |
 |         **TFLOP/s per GPU** | 161   | 161   | 177   |
 | **Tokens / day 8*A100-80g** | 0.59B | 0.27B | 0.15B |
