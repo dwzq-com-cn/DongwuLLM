@@ -116,7 +116,7 @@ python tools/checkpoint_conversion/llama_checkpoint_conversion.py \
 
 ### 训练样例-31B/65B/132B
 
-本代码库提供了训练基于Llama架构大模型的脚本，包括[31B](./scripts/llama_30B.sh)、[65B](./scripts/llama_70B.sh)、和[132B](./scripts/llama_132B.sh)。下表记录了在A100-SXM4-80G上的TFlops和token speed：
+本代码库提供了训练基于Llama架构大模型的脚本，包括[31B](./scripts/llama_31B.sh)、[65B](./scripts/llama_65B.sh)、和[132B](./scripts/llama_132B.sh)。下表记录了在A100-SXM4-80G上的TFlops和token speed：
 
 |                             | 31B   | 65B   | 132B  |
 | --------------------------: | ----- | ----- | ----- |
@@ -127,7 +127,7 @@ python tools/checkpoint_conversion/llama_checkpoint_conversion.py \
 
 大语言模型的上下文长度通常是固定的，比如LLaMA的上下文长度为2048，LLaMA2的上下文长度为4096。然而，这些固定的上下文长度可能不足以满足那些需要更长上下文窗口的下游任务，比如长上下文对话任务或者是长文档中的信息抽取任务。因此，我们需要扩展预训练模型的上下文窗口。本代码库使用[Position Interpolation](https://arxiv.org/pdf/2306.15595.pdf)将秀才13B的上下文窗口从4096扩展到32768，并且提供了相应的脚本。值得一提的是，只需要通过1000步的持续训练，Position Interpolation就能在长文本建模中达到高质量的性能。
 
-### 上下文长度扩展式例
+### 上下文长度扩展示例
 
 本代码库扩展了金融模型秀才-13B的上下文长度。可以在[这里](./scripts/llama13B_strech_32k.sh)找到将13B模型的token长度从4096扩展到32768的脚本。我们进行了一系列测试，以比较在Pile和PG-19数据集上，原始的秀才13B及扩展上下文长度的秀才13B在困惑度（数值越小，建模能力越好）上的性能。以下是测试结果：
 
